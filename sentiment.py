@@ -36,11 +36,10 @@ class sentiment_analyzer:
 
 if __name__ == "__main__":
     while True:
-        text = input("\033[1;34m Enter a message to analyze: \033[0m ")
-        stance =sentiment_analyzer(text).analyze()
-        print(stance)
+       text = input("\033[1;34m Enter a message to analyze: \033[0m ")
+       stance = sentiment_analyzer(text).analyze()
+       print(stance)
     
-
 
 
 
